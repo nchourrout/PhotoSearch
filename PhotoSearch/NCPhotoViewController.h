@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NCPhotoViewController.h
 //  PhotoSearch
 //
 //  Created by Nico on 07/02/2015.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface NCPhotoViewController : UIViewController
 
+- (void)searchImagesWithKeywords:(NSString *)keywords;
 
 @end
-
